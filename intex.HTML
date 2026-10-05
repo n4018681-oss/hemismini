@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talaba tizimi</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+        }
+
+        header {
+            background: #1769aa;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .welcome {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px #ddd;
+        }
+
+        .card h2 {
+            font-size: 35px;
+        }
+
+        button {
+            background: #1769aa;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎓 TALABA TIZIMI</h1>
+    <p>Elektron ta'lim boshqaruv tizimi</p>
+</header>
+
+<div class="container">
+
+    <div class="welcome">
+        <h2>Xush kelibsiz!</h2>
+        <p>Bu biz yaratadigan HEMISga o‘xshash tizim.</p>
+        <button onclick="salom()">Kirish</button>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>📚</h2>
+            <h3>Fanlar</h3>
+            <p>Talabaning fanlari</p>
+        </div>
+
+        <div class="card">
+            <h2>📝</h2>
+            <h3>Baholar</h3>
+            <p>Talabaning baholari</p>
+        </div>
+
+        <div class="card">
+            <h2>📅</h2>
+            <h3>Jadval</h3>
+            <p>Dars jadvali</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+function salom() {
+    alert("Tizimga xush kelibsiz!");
+}
+</script>
+
+</body>
+</html># hemismini
